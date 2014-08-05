@@ -1,6 +1,6 @@
 <h2>FizzBuzz</h2>
 
-<h4>Description</h4>
+<h4>Description</h4>  
 
 <p>The game of 'FizzBuzz' implemented in Ruby and written according to TDD.<p>
 
@@ -8,7 +8,7 @@
 
 <p>For example: "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, Fizz Buzz, 31, 32, Fizz, 34, Buzz, Fizz, ..."</p>
 
-<h4>How to Play</h4>
+<h4>How to Play</h4>  
 
 <p>Type the following in terminal:</p>
 <p>$ irb</p>
