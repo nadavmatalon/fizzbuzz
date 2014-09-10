@@ -18,8 +18,7 @@ In __FizzBuzz__, the players take turns counting the natural numbers, but replac
 numbers divisable by 3 with `Fizz`, numbers divisible by 5 with `Buzz`, 
 and numbers divisible by 15 with `FizzBuzz`.
 
-If we run through the start of the positive integer series, for example, in __Fizzbuzz__ 
-we get:
+If we run through the series of positive integers, in __Fizzbuzz__ we get:
 
 > 1, 2, `Fizz`, 4, `Buzz`, `Fizz`, 7, 8, `Fizz`, `Buzz`, 11, `Fizz`, 13, 14, 
 > `FizzBuzz`, 16, 17, `Fizz`, 19, `Buzz`, `Fizz`, 22, 23, `Fizz`, `Buzz`, 26, `Fizz`, 
@@ -35,12 +34,23 @@ Clone the repo to a local folder and run:
 ```
 $> cd fizzbuzz
 $> irb
->> require './lib/fizzbuzz
+>> require './lib/fizzbuzz'
 
-// Now you can use the 'fizzbuzz' method with any given number, for example:
+Now you can use the #fizzbuzz method with any given number
+and get the relevant response, for example:
 
->> fizzbuzz(1025)</p>
+>> fizzbuzz(2)
+=> 2
+
+>> fizzbuzz(6)
+=> "fizz"
+
+>> fizzbuzz(10)
 => "buzz"
+
+>> fizzbuzz(15)
+=> "fizzbuzz"
+
 ```
 
 
