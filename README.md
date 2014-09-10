@@ -1,27 +1,62 @@
-<h2>FizzBuzz</h2>
+#FizzBuzz
 
-<h4>Description</h4><br/>
+## Table of Contents
 
-<p>The game of 'FizzBuzz' implemented in Ruby and written according to TDD.<p>
+* [General Description](#general-description)
+* [How to Run](#how-to-run)
+* [Testing](#testing)
+* [License](#license)
 
-<p>In Fizzbuzz, the players take turns counting the natural numbers, but replacing numbers divisable by 3 with 'fizz', numbers divisible by 5 with 'buzz', and numbers divisible by 15 with 'fizzbuzz'.</p>
 
-<p>For example: "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, Fizz Buzz, 31, 32, Fizz, 34, Buzz, Fizz, ..."</p>
+##General Description
 
-<h4>How to Play</h4><br/>
+The logic of the game of __FizzBuzz__ implemented in [Ruby](https://www.ruby-lang.org/en/) 
+and written according to [TDD](http://en.wikipedia.org/wiki/Test-driven_development) 
+methodology (testing done with [Rspec](http://rspec.info/)).
 
-<p>Type the following in terminal:</p>
-<p>$ irb</p>
-<p>$ require './lib/fizzbuzz'</p>
-<p>and then the 'fizzbuzz' command with any natural number as an argument, eg:</p>
-<p>$ fizzbuzz(1025)</p>
-<p>this example will return:</p>
-<p>=> "buzz"</p>
+In __FizzBuzz__, the players take turns counting the natural numbers, but replacing 
+numbers divisable by 3 with `Fizz`, numbers divisible by 5 with `Buzz`, 
+and numbers divisible by 15 with `FizzBuzz`.
 
-<h3>Testing</h3>
+If we run through the start of the positive integer series, for example, in __Fizzbuzz__ 
+we get:
 
-<p>Tests were written with Rspec.
+> 1, 2, `Fizz`, 4, `Buzz`, `Fizz`, 7, 8, `Fizz`, `Buzz`, 11, `Fizz`, 13, 14, 
+> `FizzBuzz`, 16, 17, `Fizz`, 19, `Buzz`, `Fizz`, 22, 23, `Fizz`, `Buzz`, 26, `Fizz`, 
+> 28, 29, `FizzBuzz`, 31, 32, `Fizz`, 34, `Buzz`, `Fizz`, ...
 
-<p>To run the tests: $ rspec</p>
+For more info about the game: [Wikipedia on FizzBuzz](http://en.wikipedia.org/wiki/Fizz_buzz)
 
-<p>Rspec version: 3.0.3</p>
+
+###How to Run
+
+Clone the repo to a local folder and run:
+
+```
+$> cd fizzbuzz
+$> irb
+>> require './lib/fizzbuzz
+
+// Now you can use the 'fizzbuzz' method with any given number, for example:
+
+>> fizzbuzz(1025)</p>
+=> "buzz"
+```
+
+
+##Testing
+
+Tests were written with [Rspec](http://rspec.info/) (3.0.3).
+
+To run the tests in terminal: 
+
+```bash
+$> cd fizzbuzz
+$> rspec
+```
+
+
+##License
+
+<p>Released under the <a href="http://www.opensource.org/licenses/MIT">MIT license</a>.</p>
+
