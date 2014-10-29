@@ -20,9 +20,9 @@ describe 'Fizzbuzz' do
     it 'knows that a number is divisible by 15' do
     	expect(is_divisible_by_fifteen?(15)).to be true
     end
-	
-	it 'knows that a number is not divisible by 15' do
-    	expect(is_divisible_by_fifteen?(1)).to be false
+
+    it 'knows that a number is not divisible by 15' do
+        expect(is_divisible_by_fifteen?(1)).to be false
     end
 
     it 'knows to return number for 1' do
@@ -36,8 +36,8 @@ describe 'Fizzbuzz' do
     it 'knows to return "buzz" for 5' do
     	expect(fizzbuzz(5)).to eq "buzz"
     end
- 
-	it 'knows to return "fizzbuzz" for 15' do
+
+    it 'knows to return "fizzbuzz" for 15' do
     	expect(fizzbuzz(15)).to eq "fizzbuzz"
     end
 end
