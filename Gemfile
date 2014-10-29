@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 
 ruby '2.1.1'
 
-group :test, :development do
+    group :test, :development do
 
-	# https://github.com/rspec/rspec 
+    # https://github.com/rspec/rspec 
     gem 'rspec', '~> 3.1.0'
     # https://github.com/rspec/rspec-collection_matchers
     gem 'rspec-collection_matchers', '~> 1.0.0'
