@@ -11,7 +11,7 @@
 ##General Description
 
 The logic of the game of __FizzBuzz__ implemented in [Ruby](https://www.ruby-lang.org/en/) 
-and written according to [TDD](http://en.wikipedia.org/wiki/Test-driven_development) 
+(2.1.1) and written according to [TDD](http://en.wikipedia.org/wiki/Test-driven_development) 
 methodology (testing done with [Rspec](http://rspec.info/)).
 
 In __FizzBuzz__, the players take turns counting the natural numbers, but replacing 
@@ -56,7 +56,7 @@ and get the relevant response, for example:
 
 ##Testing
 
-Tests were written with [Rspec](http://rspec.info/) (3.0.3).
+Tests were written with [Rspec](http://rspec.info/) (3.1.7).
 
 To run the tests in terminal: 
 
